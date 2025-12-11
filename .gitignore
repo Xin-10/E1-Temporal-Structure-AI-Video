@@ -1,29 +1,23 @@
-# =====================
-# Ignore video folders
-# =====================
+# ============================
+# Ignore raw video folders
+# ============================
 AI_videos/
 real_videos_raw/
 real_videos_segments/
 
-# Ignore any raw video files anywhere
+# Ignore raw video files anywhere
 *.mp4
 *.mov
 *.mkv
 *.avi
 
-# =====================
-# Ignore Python cache / notebook cache
-# =====================
+# ============================
+# Python cache / notebook cache
+# ============================
 __pycache__/
 .ipynb_checkpoints/
 
-# =====================
-# Ignore feature files if too large (optional)
-# =====================
+# ============================
+# Ignore numpy feature files
+# ============================
 *.npy
-
-# =====================
-# Ignore OS trash files
-# =====================
-.DS_Store
-Thumbs.db
